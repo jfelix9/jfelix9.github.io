@@ -2,7 +2,7 @@
 <!--
 	Jorge Felix Portfolio by Jorge Felix
 -->
-<html>
+<html lang-"en">
 	<head>
 		<title>Jorge Felix</title>
 		<meta charset="utf-8" />
@@ -10,105 +10,59 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<section class="header">
-			<div>
-				<h1>Hi, I'm <strong>Jorge</strong><br> a front-end software engineer.</h1>
-			</div>
-		</section>
-
-		<nav class="navbar navbar-expand navbar-light bg-light">
-			<ul class="nav navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Nav 1 <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Nav 2</a>
-				</li>
-			</ul>
-		</nav>
-		<section id="zero">
-			<div>
-				<ul class="buttonList">
-					<li><a href="#one">Education</a></li>
-					<li><a href="#two">Work Experience</a></li>
-					<li><a href="#three">Projects</a></li>
+		<div class="container">
+			<nav class="navbar">
+				<ul>
+					<li><a href="#home">home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#education">education</a></li>
+					<li><a href="#experience">experience</a></li>
+					<li><a href="#projects">projects</a></li>
+					<li><a href="#contact">contact</a></li>
 				</ul>
-			</div>
-		</section>
-
-		<section id="education">
-			<div>
-				<h1>Batchelor's of Engineering in Computer Science</h1>
-				<h2>The University of Texas at El Paso</h2>
-				<p>Graduated May 17th, 2020 with a minor in math.</p>
-				<p>Relevant courses include Database Managment, Secure Web Systems, Machine Learning, and Data Mining.</p>
-			</div>
-		</section>
-
-
-		<section id="experience">
-			<div>
-				<header>
-					<h2>Work Experience</h2>
-				</header>
-				<p><b>Web developer at Up and Running</b></p>
-				<p>November 2019 - Current Date</p>
-				<p>Currently undergoing some changes but overall still good.<br> Check it out <a href="http://upandrunningelpaso.com">here<a>.</p>
-				<p><b>Teacher of intro to computer sciece at El Paso High School</b></p>
-				<p>January 2018 - May 2018</p>
-				<p>Worked under Google's Ignite CS program<br> Spring semester of 2018</p>
-			</div>
-		</section>
-		<section id="projects">
-			<div class="container">
-				<header>
-					<h2>Projects</h2>
-				</header>
-				<div>
-					<div>
-						<!--<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>-->
-						<h3>P.I.C.K. Tool</h3>
-						<p>This tool was my capstone project. It was build for the U.S. Army Combat Capabilities Development Command to assist them in making Adversarial Assesment reports. This tool ingested system log files and produced clean, readable attack graph that told the story behind a cyber attack.</p>
-						<ul>
-							<li><a href="https://github.com/CS4311-spring-2020/pick-tool-team06-team-404" class="button">Check out on Github</a></li>
-						</ul>
-					</div>
-					<div>
-						<!--<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>-->
-						<h3>Tracks: a PhD Progress Tracking Tool</h3>
-						<p>This tool was build for my Database Managment class Spring 2020. This tool was build for the Computer Science department at UTEP. It allowed student users to keep and maintain a profile of their progress in their PhD careers. It allowed faculty to view and analyze trends among the PhD student.</p>
-						<ul>
-							<li><a href="#" class="button">Will be on Github soon</a></li>
-						</ul>
-					</div>
-					<div>
-						<!--<span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-						<h3>Parts.com</h3>
-						<p>A simple e-commerse site build for my Secure Web Systems class.</p>
-						<ul>
-							<li><a href="#" class="button">Will be on Github soon</a></li>
-						</ul>
-					</div>
+			</nav>
+		
+			<section id="home">
+				<div class="highlight">
+					<h1>Hi, I'm Jorge</h1>
+					<p>After years of programming, I've learned a thing or two.</p>
+					<p>I'm currently updating this site daily: last updated July, 28, 2020</p>
 				</div>
-			</div>
-		</section>
-		<section id="contact">
-			<p>Let's talk!<br></p>
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/feed/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://github.com/jfelix9" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-			</ul>
-			<p><b>jfelix9@icloud.com</b></p>
-			<br>
-		</section>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+			</section>
+			<section id="about">
+				<div class="highlight">
+					<h1>A few things about me...</h1>
+					<ul>
+						<li>4 years experience</li>
+						<li>Bilingual! (English and Spanish)</li>
+						<li>Currently in El Paso, Texas</li>
+					</ul>
+				</div>
+			</section>
+			<section id="education">
+				<div class="highlight">
+					<h1>Education</h1>
+					<p>BS in Computer Science from The University of Texas at El Paso</p>
+				</div>
+			</section>
+			<section id="experience">
+				<div class="highlight">
+					<h1>Experience</h1>
+					<p>I've been working at Up and Running for almost 3 years now.</p>
+				</div>
+			</section>
+			<section id="projects">
+				<div class="highlight">
+					<h1>Cool stuff i've made</h1>
+					<p>This section is coming soon.</p>
+				</div>
+			</section>
+			<section id="contact">
+				<div class="highlight">
+					<h1>Contact</h1>
+					<p>Section coming soon.</p>
+				</div>
+			</section>
+		</div>
 	</body>
 </html>
