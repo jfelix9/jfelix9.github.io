@@ -108,3 +108,8 @@ table {
     table-layout: auto;
     width: 100%;
 }
+
+#aboutTable td,
+th {
+    padding: 5%;
+}
