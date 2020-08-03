@@ -1,13 +1,19 @@
 <!DOCTYPE HTML>
 <!--
 	Jorge Felix Portfolio by Jorge Felix
+	
 -->
 <html lang-"en">
 	<head>
 		<title>Jorge Felix</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="application-name" content="Jorge Felix Portfolio">
+		<meta name="author" content="Jorge Felix">
 		<link rel="stylesheet" href="style.css" />
+		<meta name="keywords" content="HTML, CSS, JavaScript, hiring, looking, progessional, website, programmer, El Paso, Texas, Jorge Felix">
+		<meta name="description" content="Welcome to my website! I just graduated with my CS from The University of Texas at El Paso and am passionate about creating amazing websites.">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	</head>
 	<body>
 		<div class="container">
@@ -26,35 +32,37 @@
 				<div class="highlight">
 					<h1>Hi, I'm Jorge</h1>
 					<h2>and this is my portfolio</h2>
+					<img src="images/headshot.jpeg" alt="headshot" id="headshot">
+					<p><b>What is this?</b></p>
+					<p>This is a staticaly hosted site on Github pages. It is a single page of HTML, a bit of CSS, with some Javascript magic on the way.</p>
 					</br>
+					<p>I'm currently updating this site daily: last updated August 1, 2020</p>
 					</br>
-					</br>
-					<p><b>What is this?</b></br>This is a staticaly hosted site on Github pages. It is a single page of HTML, a bit of CSS, with some Javascript magic on the way.</p>
-					<p>Pictures: unsplash.com API</p>
-					</br>
-					<p>I'm currently updating this site daily: last updated July, 31, 2020</p>
-					</br>
-					<a id="calltoaction" href="#about">check it out</a>
+					<a class="nextButton" href="#about">check it out</a>
 				</div>
 			</section>
 			<section id="about">
 				<div class="lowlight">
-					<h1>A few things about me...</h1>
-					<p>I'm passionate about making intuitive, fast, dynamic, and responsive websites</p>
+					<h1>About</h1>
+					<p>I'm passionate about making intuitive, fast, and dynamic websites</p>
 					<table id="aboutTable">
 						<tr>
 							<th>Intuitive?</th>
 							<th>Fast?</th>
 							<th>Dynamic?</th>
-							<th>Responsive?</th>
+						</tr>
+						<tr>
+							<td><img src="images/child_care-black-18dp.svg" class="icon"></td>
+							<td><img src="images/speed-black-18dp.svg" class="icon"></td>
+							<td><img src="images/play_circle_outline-black-18dp.svg" class="icon"></td>
 						</tr>
 						<tr>
 							<td>Making computers and humans play nice takes a multidisiplinary approach.</td>
 							<td>No one, aboslutely no one likes a slow website.</td>
 							<td>People prefer video games over chapter books. Websites should reflect that.</td>
-							<td>Things should look good on a desktop as well as a phone.</td>
 						</tr>
 					</table>
+					<a class="nextButton" href="#education">Okay. What about schooling?</a>
 				</div>
 			</section>
 			<section id="education">
@@ -62,21 +70,17 @@
 					<h1>Education</h1>
 					<table id="eduTable">
 						<tr>
-							<th>BS in Computer Science</th>
-							<th>JavaScript Ceritification</th>
-							<th>Photography Fundamentals</th>
+							<td><b>BS in Computer Science</b> at The University of Texas at El Paso</td>
+							<td><b>JavaScript Ceritification</b> at The University of Pensilvannia</td>
+							<td><b>Photography Fundamentals</b> at El Paso Community College</td>
 						</tr>
 						<tr>
-							<td>The University of Texas at El Paso</td>
-							<td>The University of Pensilvannia</td>
-							<td>El Paso Community College</td>
-						</tr>
-						<tr>
-							<td>May 2020</td>
-							<td>August 2020</td>
-							<td>August 2018</td>
+							<td>August 2015 - May 2020</td>
+							<td>June 2020 - August 2020</td>
+							<td>June 2018 - August 2018</td>
 						</tr>
 					</table>
+					<a class="nextButton" href="#experience">Alright, any work experience?</a>
 				</div>
 			</section>
 			<section id="experience">
@@ -84,7 +88,7 @@
 					<h1>Experience</h1>
 					<table id="expTable">
 						<tr>
-							<td><b>Web Developer</b> at Up and Runnning</td>
+							<td><b>Web Developer</b> at Up and Runnning<br><a href="upandrunningelpaso.com" id="showoff">check it out</a></td>
 							<td><b>Mobile Expert</b> at Best Buy</td>
 							<td><b>In-Home Caregiver</b> at Vista Del Sol Healthcare</td>
 							<td><b>PM Server</b> at Village Inn</td>
@@ -100,33 +104,43 @@
 							<td>June 2011 - August 2012</td>
 						</tr>
 					</table>
+					<a class="nextButton" href="#projects">Show me something</a>
 				</div>
 			</section>
 			<section id="projects">
 				<div class="lowlight">
 					<h1>Cool stuff i've made</h1>
-					<p>LEAD PROGRAMMER, PICK TOOL SENIOR CAPSTONE PROJECT</p>
-					<p> 8/2019 - 5/2020</p>
-					<p>• Lead team of 4 to build data processing system for the U.S. Army CCDC.</p>
-					<p>• Assisted in developing SRS, then assisted in developing CRC and SDD.</p>
-					<p>• Built GUI using PyQt framework in Python, then added GUI functionality.</p>
-					<p>• Implemented voice-to-text API, implemented HCI principles using CSS.</p>
-					<p>• github.com/jfelix9/PICK-Tool</p>
+					<p><b>Lead Programmer</b></p>
+					<p>PICK Tool Senior Capston Project</p>
+					<p>8/2019 - 5/2020</p>
+					<p>Lead team of 4 to build data processing system for the U.S. Army CCDC.</p>
+					<p>Assisted in developing SRS, then assisted in developing CRC and SDD.</p>
+					<p>Built GUI using PyQt framework in Python, then added GUI functionality.</p>
+					<p>Implemented voice-to-text API, implemented HCI principles using CSS.</p>
+					<p><a href="http://github.com/jfelix9/PICK-Tool" target="_blank" class="nextButton">check it out</a></p>
 					</br>
 					</br>
-					<p>PHD PROGRESS TRACKING TOOL</p>
+					<p><b>Lead Programmer</b></p>
+					<p>PhD Progress Tracking Tool</p>
 					<p>1/2020 - 5/2020</p>
-					<p>• Lead team of 3 to build progress tracking tool for UTEP CS department.</p>
-					<p>• Implemented database design methodologies. Used MySQL, PHP, and HTML.</p>
-					<p>Coming to github soon</p>
+					<p>Lead team of 3 to build progress tracking tool for UTEP CS department.</p>
+					<p>Implemented database design methodologies. Used MySQL, PHP, and HTML.</p>
+					<p><a class="nextButton">comming soon</a></p>
+					</br>
+					</br>
+					<p><a class="nextButton" href="#contact">I'm interested...</a></p>
 				</div>
 			</section>
 			<section id="contact">
 				<div class="highlight">
 					<h1>Contact</h1>
-					<p>Phone Number: +1 (915) 929-8133</p>
-					<p>Email: jfelix9@icloud.com</p>
-					<p>LinkedIn: linkedin.com/in/jfelix9</p>
+					<div id="contactPage">
+						<p>Phone Number: </p><a href="tel:915-929-8133">+1(915)929-8133<a>
+						</br>
+						<p>Email: </p><a href="mailto:jfelix9@icloud.com">jfelix9@icloud.com</a>
+						</br>
+						<p>Github: </p><a href="http://github.com/jfelix9">github.com/jfelix9</a>
+					<div>
 				</div>
 			</section>
 		</div>
