@@ -161,8 +161,15 @@ td {
 }
 
 @media screen and (max-width: 800px) {
+    .container {
+        scroll-snap-type: none;
+    }
+    section {
+        min-height: 100%;
+        height: auto;
+    }
     section h1 {
-        font-size: medium;
+        font-size: 2rem;
     }
     .highlight {
         width: 100%;
@@ -172,6 +179,12 @@ td {
     }
     .navbar {
         display: none;
+    }
+    table {
+        overflow: auto;
+    }
+    .nextButton {
+        visibility: hidden;
     }
 }
 
