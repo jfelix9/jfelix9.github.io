@@ -1,5 +1,7 @@
 body {
     font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -9,7 +11,7 @@ body {
     display: flex;
     width: 100vw;
     height: 60px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .navbar ul {
@@ -27,11 +29,11 @@ body {
 .navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: floralwhite;
+    color: #f8f8f8;
 }
 
 .navbar ul li a:hover {
-    color: darkturquoise;
+    color: #00ced1;
 }
 
 .container {
@@ -46,3 +48,32 @@ body {
     scroll-behavior: smooth;
 }
 
+.wrapper {
+    max-width: 1020px;
+}
+
+#home-page {
+    background-image: -webkit-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url(images/m-angie-salazar-1_ZZ8VgPbjM-unsplash.jpg);
+    background-image:  -moz-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url(images/m-angie-salazar-1_ZZ8VgPbjM-unsplash.jpg);
+    background-image:  -o-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url(images/m-angie-salazar-1_ZZ8VgPbjM-unsplash.jpg);
+    background-image:  -ms-linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url(images/m-angie-salazar-1_ZZ8VgPbjM-unsplash.jpg);
+    background-image:  linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), url(images/m-angie-salazar-1_ZZ8VgPbjM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 20%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
