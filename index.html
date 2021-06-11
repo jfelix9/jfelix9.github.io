@@ -13,47 +13,47 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="application-name" content="Jorge Felix Portfolio">
 		<meta name="author" content="Jorge Felix">
+        <meta name="keywords" content="HTML, CSS, JavaScript, hiring, looking, progessional, website, programmer, El Paso, Texas, Jorge Felix">
+		<meta name="description" content="Welcome to my portfolio! This is just a little place I show off myself/do whatever">
 		<link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<meta name="keywords" content="HTML, CSS, JavaScript, hiring, looking, progessional, website, programmer, El Paso, Texas, Jorge Felix">
-		<meta name="description" content="Welcome to my portfolio! This is just a little place I show off myself/do whatever">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script-->
 	</head>
 	<body>
         <nav class="navbar">
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#about-me-page">about</a></li>
+                <li><a href="#education-page">education</a></li>
+                <li><a href="#experience-page">experience</a></li>
+                <li><a href="#projects-page">projects</a></li>
             </ul>
         </nav>
         <div class="container" id="home-page">
+            <div data-aos="fade-up" class="wrapper imageSlideBg">
                 <div class="heading">
-            <div class="wrapper light-theme">
                     <h1>Hi, I'm Jorge.</h1>
                 </div>
                 <p>A full-stack web developer.</p>
-                <p></p>
             </div>
         </div>
         <div class="container" id="about-me-page">
-            <div class="wrapper dark-theme">
+            <div class="wrapper imageSlideBg">
                 <div class="heading">
                     <h2>Here's what I do</h2>
                 </div>
-                <div class="cards-wrapper">
-                    <div class="card">
+                <div class="content">
+                    <div class="content-card" data-aos="fade-right">
                         <h1>I design</h1>
                         <p>I like to stay up to date on the newest design trends.</p>
                     </div>
-                    <div class="card">
+                    <div class="content-card" data-aos="fade-left">
                         <h1>I code</h1>
                         <p>I love bringing designs to life.</p>
                     </div>
-                    <div class="card">
+                    <div class="content-card" data-aos="fade-up">
                         <h1>I code some more</h1>
                         <p>Building the backend is an artform of its own.</p>
                     </div>
@@ -61,12 +61,12 @@
             </div>
         </div>
         <div class="container" id="education-page">
-            <div class="wrapper dark-theme">
+            <div class="wrapper imageSlideBg">
                 <div class="heading">
                     <h1>Education</h1>
                 </div>
                 <div class="content">
-                    <div class="content-card">
+                    <div class="content-card" data-aos="zoom-in-up">
                         <h2>BS in CS</h2>
                         <h3>The University of Texas at El Paso</h3>
                         <h4>August 2015 - May 2020</h4>
@@ -76,108 +76,88 @@
             </div>
         </div>
         <div class="container" id="experience-page">
-            <div class="wrapper dark-theme">
+            <div class="wrapper imageSlideBg">
                 <div class="heading">
                     <h1>Experience</h1>
                 </div>
                 <div class="content">
-                    <div class="content-card">
+                    <div class="content-card exp" data-aos="zoom-in-right">
                         <h2>Front End Web Dev</h2>
                         <h3>Accrisoft</h3>
                         <h4>August 2020 - Present Day</h4>
                         <p></p>
-                        <a href="https://accrisoft.com" class="button">company site</a>
+                        <a href="https://accrisoft.com" class="btn">company site&nbsp;<i class="fas fa-external-link-alt"></i></a>
                     </div>
-                    <div class="content-card">
+                    <div class="content-card exp" data-aos="zoom-in-up">
                         <h2>WordPress Web Dev</h2>
                         <h3>Up and Running</h3>
                         <h4>May 2017 - Current Day</h4>
                         <p></p>
-                        <a href="https://upandrunningelpaso.com" class="button">company site</a>
+                        <a href="https://upandrunningelpaso.com" class="btn">company site&nbsp;<i class="fas fa-external-link-alt"></i></a>
                     </div>
-                    <div class="content-card">
+                    <div class="content-card exp" data-aos="zoom-in-left">
                         <h2>Mobile Expert</h2>
                         <h3>Best Buy</h3>
                         <h4>August 2016 - January 2017</h4>
                         <p></p>
-                        <a href="https://bestbuy.com" class="button">company site</a>
-                    </div>
-                    <div class="content-card">
-                        <h2>In-Home Caregiver</h2>
-                        <h3>Vista Del Sol Healthcare</h3>
-                        <h4>February 2016 - June 2016</h4>
-                        <p></p>
-                    </div>
-                    <div class="content-card">
-                        <h2>PM Server</h2>
-                        <h3>Village Inn</h3>
-                        <h4>October 2015 - February 2016</h4>
-                        <p></p>
-                    </div>
-                    <div class="content-card">
-                        <h2>Team Member</h2>
-                        <h3>Xtreme Lazer Tag</h3>
-                        <h4>October 2013 - July 2015</h4>
-                        <p></p>
-                    </div>
-                    <div class="content-card">
-                        <h2>Landscaper</h2>
-                        <h3>El Tri Nursery</h3>
-                        <h4>June 2011 - August 2012</h4>
-                        <p></p>
+                        <a href="https://bestbuy.com" class="btn">company site&nbsp;<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         
         <div class="container" id="projects-page">
-            <div class="dark-theme">
+            <div class="wrapper imageSlideBg">
                 <div class="heading">
                     <h1>Projects</h1>
                 </div>
                 <div class="content">
-                    <div class="content-card">
+                    <div class="content-card" data-aos="fade-up">
                         <p><b>Lead Programmer</b></p>
                         <p>PICK Tool Senior Capston Project</p>
                         <p>8/2019 - 5/2020</p>
-                        <p>Lead team of 4 to build data processing system for the U.S. Army CCDC.</p>
+                        <!--<p>Lead team of 4 to build data processing system for the U.S. Army CCDC.</p>
                         <p>Assisted in developing SRS, then assisted in developing CRC and SDD.</p>
                         <p>Built GUI using PyQt framework in Python, then added GUI functionality.</p>
-                        <p>Implemented voice-to-text API, implemented HCI principles using CSS.</p>
-                        <p><a href="http://github.com/jfelix9/PICK-Tool" target="_blank" class="btn">check it out</a></p>
+                        <p>Implemented voice-to-text API, implemented HCI principles using CSS.</p>-->
+                        <p><a href="http://github.com/jfelix9/PICK-Tool" target="_blank" class="btn">check it out&nbsp;<i class="fas fa-external-link-alt"></i></a></p>
                     </div>
-                    <div class="content-card">
+                    <div class="content-card" data-aos="fade-up">
                         <p><b>Lead Programmer</b></p>
                         <p>PhD Progress Tracking Tool</p>
                         <p>1/2020 - 5/2020</p>
-                        <p>Lead team of 3 to build progress tracking tool for UTEP CS department.</p>
-                        <p>Implemented database design methodologies. Used MySQL, PHP, and HTML.</p>
-                        <p><a class="btn" href="http://github.com/jfelix9/Tracks" target="_blank">check it out</a></p>
+                        <!--<p>Lead team of 3 to build progress tracking tool for UTEP CS department.</p>
+                        <p>Implemented database design methodologies. Used MySQL, PHP, and HTML.</p>-->
+                        <p><a class="btn" href="http://github.com/jfelix9/Tracks" target="_blank">check it out&nbsp;<i class="fas fa-external-link-alt"></i></a></p>
+                    </div>
+                    <div class="content-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <p><b>Individual Project</b></p>
+                        <p>PhD Progress Tracking Tool 2.0</p>
+                        <p>5/2020 - Current Date</p>
+                        <!--<p>Lead team of 3 to build progress tracking tool for UTEP CS department.</p>
+                        <p>Implemented database design methodologies. Used MySQL, PHP, and HTML.</p>-->
+                        <p><a class="btn" href="http://github.com/jfelix9/Tracks" target="_blank">check it out&nbsp;<i class="fas fa-external-link-alt"></i></a></p>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="container">
-            <div class="dark-theme">
+        <div class="container" id="contact-page">
+            <div class="wrapper imageSlideBg">
                 <div class="heading">
                     <h1>Contact</h1>
                 </div>
                 <div class="content">
-                    <div class=content-card>
-                        <p>Phone Number: </p>
-                        <a href="tel:915-929-8133" class="contact-link">+1(915)929-8133</a>
-                    </div>
-                    <div class="content-card">                    
-                        <p>Email: </p>
-                        <a href="mailto:jfelix9@icloud.com" class="contact-link">jfelix9@icloud.com</a>
-                    </div>
                     <div class="content-card">
-                        <p>Github: </p>
-                        <a href="http://github.com/jfelix9" class="contact-link">github.com/jfelix9</a>
+                        <a href="mailto:jfelix9@icloud.com" class="contact-link btn">Email Me&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                        <a href="http://github.com/jfelix9" class="contact-link btn">Github&nbsp;<i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://www.linkedin.com/in/jorge-felix" class="contact-link btn">LinkedIn&nbsp;<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+          AOS.init();
+        </script>
 	</body>
 </html>
