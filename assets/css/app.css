@@ -1,21 +1,19 @@
+/*
 #mainMenu {
-    height:60px;
+    height: 60px;
     position: fixed;
-    width: 100%
+    width: 100%;
+    z-index: 2;
 }
 
 #hero {
-    background-image:  
-    radial-gradient(
-      farthest-side at bottom left,
-      rgba(255, 0, 255, 0.5), 
-      transparent
-    ),
-    radial-gradient(
-      farthest-side at bottom right,
-      rgba(25, 150, 250, 0.5), 
-      transparent
-    );
+    background-image:
+        radial-gradient(farthest-side at bottom left,
+            rgba(255, 0, 255, 0.5),
+            transparent),
+        radial-gradient(farthest-side at bottom right,
+            rgba(25, 150, 250, 0.5),
+            transparent);
     height: 620px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -24,7 +22,7 @@
     background-size: cover;
     position: fixed;
     width: 100%;
-    top:60px;
+    top: 60px;
 }
 
 #pageContent {
@@ -34,4 +32,22 @@
     padding: 50px;
     font-size: 20px;
     background-color: #fff;
+}
+*/
+
+
+#hero {
+    background-image:
+        radial-gradient(farthest-side at bottom left,
+            rgba(255, 0, 255, 0.5),
+            transparent),
+        radial-gradient(farthest-side at bottom right,
+            rgba(25, 150, 250, 0.5),
+            transparent);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
