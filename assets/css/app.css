@@ -1,9 +1,6 @@
-/*
-#mainMenu {
-    height: 60px;
+#intro {
     position: fixed;
     width: 100%;
-    z-index: 2;
 }
 
 #hero {
@@ -13,41 +10,23 @@
             transparent),
         radial-gradient(farthest-side at bottom right,
             rgba(25, 150, 250, 0.5),
-            transparent);
-    height: 620px;
+            transparent),
+        radial-gradient(farthest-side at top right,
+            rgba(250, 250, 50, 0.2),
+            transparent);;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: fixed;
-    width: 100%;
-    top: 60px;
 }
 
 #pageContent {
     max-width: 100%;
     position: relative;
-    top: 300px;
+    top: 400px;
     padding: 50px;
     font-size: 20px;
     background-color: #fff;
 }
-*/
 
-
-#hero {
-    background-image:
-        radial-gradient(farthest-side at bottom left,
-            rgba(255, 0, 255, 0.5),
-            transparent),
-        radial-gradient(farthest-side at bottom right,
-            rgba(25, 150, 250, 0.5),
-            transparent);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-}
