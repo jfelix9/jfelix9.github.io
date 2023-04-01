@@ -11,14 +11,16 @@
 </head>
 
 <body>
-    <div class="grid-container">
-        <div class="large">
-            <h1>Jorge Felix</h1>
+    <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Jorge Felix</li>
+          </ul>
         </div>
-    </div>
+      </div>
 
     <div class="grid-container">
-        <p><span class="code-inline">Education</span></p>
+        <p><span class="badge">Education</span></p>
         <h2>Batchelor's of Science in Computer Science <small>from The University of Texas at El Paso (El Paso, TX)</small></h2>
         <p class="subheader">8/2015 - 5/2020</p>
     </div>
@@ -26,7 +28,7 @@
     <hr>
 
     <div class="grid-container">
-        <p><span class="code-inline">Experience</span></p>
+        <p><span class="badge">Experience</span></p>
 
         <h2>Support Engineer <small>at Accrisoft Corporation (Remote)</small></h2>
         <p class="subheader">3/2022 - Current Day</p>
@@ -40,20 +42,20 @@
             <li>Built and maintained websites with programming languages such as HTML, CSS/SCSS, JavaScript, and PHP.</li>
         </ul>
 
-        <h2>WordPress Developer <small>Up and Running (El Paso, Texas)</small></h3>
+        <h2>WordPress Developer <small>at Up and Running (El Paso, Texas)</small></h3>
         <p class="subheader">3/2017 - 7/2020</p>
         <ul>
             <li>Built and maintained site to site to customer specifications using WordPress and Elementor.</li>
         </ul>
 
-        <h2>Mobile Technologies Expert <small>Best Buy (McAllen, Texas)</small></h2>
+        <h2>Mobile Technologies Expert <small>at Best Buy (McAllen, Texas)</small></h2>
         <p class="subheader">8/2016 - 1/2017</p>
         <ul>
             <li>Handled all aspects of the sale including: customer contracts and warranties, customer payments, cash and credit card/check transactions.</li>
             <li>Developed, maintained and communicated strong, up-to-date knowledge of wireless products, accessories, pricing plans and service features.</li>
         </ul>
 
-        <h2>Team Member <small>Xtreme Lazer Tag (McAllen, Texas)</small></h2>
+        <h2>Team Member <small>at Xtreme Lazer Tag (McAllen, Texas)</small></h2>
         <p class="subheader">11/2013 - 5/2015</p>
         <ul>
             <li>Received orders, processed payments, responded to customer issues</li>
@@ -64,28 +66,14 @@
     <hr>
 
     <div class="grid-container">
-        <p><span class="code-inline">Projects</span></p>
+        <p><span class="badge">Projects</span></p>
 
-        <h2>Tracks - a PhD progress tracking tool <small>The University of Texas at El Paso (El Paso, Texas)</small></h2>
+        <h2>Tracks - a PhD progress tracking tool <small>at The University of Texas at El Paso (El Paso, Texas)</small></h2>
         <p></p>
     
         <h3>PICK Tool <small>The University of Texas at El Paso (El Paso, Texas)</small></h3>
         <p></p>
     </div>
-
-
-    <script src="assets/js/vendor.js"></script>
-    <script src="assets/js/foundation.js"></script>
-
-    <script>
-        $(document).foundation();
-
-        // Patch for a Bug in v6.3.1
-        $(window).on('changed.zf.mediaquery', function() {
-            $('.is-dropdown-submenu.invisible').removeClass('invisible');
-        });
-
-    </script>
 </body>
 
 </html>
