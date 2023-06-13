@@ -30,7 +30,7 @@ section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 720px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 4px;
 }
 
 ul {
