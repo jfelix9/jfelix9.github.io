@@ -1,0 +1,37 @@
+body {
+    background-color: #080818;
+    color: #ffe8e8;
+    margin: auto;
+    padding: 2rem;
+    max-width: 720px;
+}
+
+span {
+    color: #d0c0c0
+}
+
+a {
+    color: #b0b0ff
+}
+
+a:visited {
+    color: #a0a0a0
+}
+
+header {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 720px;
+}
+
+section {
+    border-radius: 15px;
+    background-color: #202020;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 720px;
+}
+
+ul {
+    list-style: none;
+}
