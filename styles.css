@@ -1,5 +1,5 @@
 body {
-    background-color: #080818;
+    background-color: #080808;
     color: #ffe8e8;
     margin: auto;
     padding: 2rem;
@@ -30,7 +30,7 @@ section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 720px;
-    box-shadow: rgba(29, 30, 30, 0.2) 0px 2px 4px;
+    box-shadow: rgba(29, 30, 30, 0.2) 0px 2px 8px;
 }
 
 ul {
