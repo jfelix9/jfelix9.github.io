@@ -1,5 +1,5 @@
 body {
-    background-color: #080808;
+    background-color: #000020;
     color: #ffe8e8;
     margin: auto;
     padding: 2rem;
@@ -26,7 +26,7 @@ header {
 
 section {
     border-radius: 15px;
-    background-color: #202020;
+    background-color: #202040;
     padding: 1rem;
     margin: 2rem auto;
     max-width: 720px;
