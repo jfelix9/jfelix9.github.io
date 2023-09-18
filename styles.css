@@ -1,22 +1,7 @@
 body {
-    background-color: #000020;
-    color: #ffe8e8;
     margin: auto;
-    padding: 2rem;
     max-width: 720px;
     font-family: 'Roboto', serif;
-}
-
-span {
-    color: #d0c0c0
-}
-
-a {
-    color: #b0b0ff
-}
-
-a:visited {
-    color: #a0a0a0
 }
 
 header {
