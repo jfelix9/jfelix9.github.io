@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" data-bs-theme="dark">
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -69,15 +69,29 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="https://profile.indeed.com/p/jorgef-7n03x99"
                             aria-label="Resume on Indeed.com - link opens in a new tab">Resume <i
-                                class="bi bi-box-arrow-up-right"></i></a>
+                                class="bi bi-box-arrow-up-right" role="none"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/jorge-felix/"
                             aria-label="LinkedIn Profile - link opens in a new tab">LinkedIn <i
                                 class="bi bi-box-arrow-up-right" role="none"></i></a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" aria-haspopup="true">
+                            Profiles
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://profile.indeed.com/p/jorgef-7n03x99" aria-label="External link to my resume on Indeed">Resume <i
+                                class="bi bi-box-arrow-up-right" role="none"></i></a></li>
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/jorge-felix/" aria-label="External link to my profile on LinkedIn">LinkedIn <i
+                                class="bi bi-box-arrow-up-right" role="none"></i></a></li>
+                            <li><a class="dropdown-item" href="https://github.com/jfelix9" aria-label="External link to my profile on GitHub">GitHub <i
+                                class="bi bi-box-arrow-up-right" role="none"></i></a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -87,7 +101,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="iosappprojects.html">iOS App Development</a></li>
                             <li><a class="dropdown-item" href="webdevprojects.html">Web Development</a></li>
-                            <li><a class="dropdown-item" href="otherprojects.html">Other</a></li>
+                            <li><a class="dropdown-item" href="otherprojects.html">Other Skills</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -98,8 +112,7 @@
     <div class="px-4 py-3 my-3 text-center">
         <h1 class="display-5 fw-bold text-body-emphasis">iOS App Development</h1>
         <div class="col-lg-4 mx-auto">
-            <p class="lead mb-4" role="heading" aria-level="2">"Give people wonderful tools and they will do wonderful
-                things." - Steve Jobs.</p>
+            <p class="lead mb-4" role="heading" aria-level="2">"Give people wonderful tools and they will do wonderful things." - Steve Jobs.</p>
         </div>
     </div>
 
@@ -107,15 +120,12 @@
         <div class="row g-4 py-5 px-3 row-cols-1 row-cols-lg-1">
             <div class="feature col">
                 <h3 class="fs-2 text-body-emphasis">I'm commited to this path</h3>
-                <p>Although I am relatively new to the iOS development
-                    space, I am no stranger to creating beautiful and robust software. I am learning quickly and exited
-                    to
-                    continue this adventure.
+                <p>Although I am relatively new to the iOS development space, I am no stranger to creating beautiful and robust software. I am learning quickly and exited to continue this adventure.
                 </p>
-                <h3 class="fs-2 text-body-emphasis">Some context</h3>
+                <!-- <h3 class="fs-2 text-body-emphasis">Some context</h3>
                 <p>
-                    In 2018, I was very oppinionated on software, my laptop ran Linux and it always would as far as I was concerned. Then I read "How the Internet Happened" by Brian McCullough. Wow. The Apple empire will eventually fall, but it's contributions to the history of tech will remain and from that, I take great inspiration. I now leverage the walled garden to build a world without walls.
-                </p>
+                    In 2018, I was very oppinionated on software, my laptop ran Linux and it always would as far as I was concerned. Then I read "How the Internet Happened" by Brian McCullough. Wow. The Apple empire will eventually fall, but it's contributions to the world of tech will remain and from that, I take great inspiration.
+                </p> -->
             </div>
         </div>
     </div>
@@ -248,24 +258,20 @@
 
     <div class="container">
         <footer class="py-1 my-1">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <ul class="nav justify-content-center border-bottom py-1 mb-1">
                 <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="https://profile.indeed.com/p/jorgef-7n03x99"
-                        class="nav-link px-2 text-body-secondary"
-                        aria-label="Resume on Indeed.com - link opens in a new tab">Resume <i
-                            class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-                <li class="nav-item"><a href="https://www.linkedin.com/in/jorge-felix/"
-                        class="nav-link px-2 text-body-secondary"
-                        aria-label="LinkedIn Profile - link opens in a new tab">LinkedIn <i
-                            class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-                <li class="nav-item"><a href="iosappprojects.html" class="nav-link px-2 text-body-secondary">iOS</a>
-                </li>
-                <li class="nav-item"><a href="webdevprojects.html" class="nav-link px-2 text-body-secondary">Web Dev</a>
-                </li>
-                <li class="nav-item"><a href="otherprojects.html" class="nav-link px-2 text-body-secondary">Other</a>
-                </li>
             </ul>
-            <p class="text-center text-body-secondary"><i class="bi bi-geo-alt" role="none"></i> Austin, Texas</p>
+            <ul class="nav justify-content-center border-bottom py-2 mb-1">
+                <li class="nav-item"><a href="iosappprojects.html" class="nav-link px-3 text-body-secondary">iOS</a></li>
+                <li class="nav-item"><a href="webdevprojects.html" class="nav-link px-3 text-body-secondary">Web</a></li>
+                <li class="nav-item"><a href="otherprojects.html" class="nav-link px-3 text-body-secondary">Other</a></li>
+            </ul>
+            <ul class="nav justify-content-center border-bottom py-2 mb-1">
+                <li class="nav-item"><a href="https://profile.indeed.com/p/jorgef-7n03x99" class="nav-link px-3 text-body-secondary" aria-label="Resume on Indeed.com - link opens in a new tab">Resume <i class="bi bi-box-arrow-up-right" role="none"></i></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/jorge-felix/" class="nav-link px-3 text-body-secondary" aria-label="LinkedIn Profile - link opens in a new tab">LinkedIn <i class="bi bi-box-arrow-up-right" role="none"></i></a></li>
+                <li class="nav-item"><a href="https://github.com/jfelix9" class="nav-link px-3 text-body-secondary" aria-label="GitHub Profile - link opens in a new tab">GitHub <i class="bi bi-box-arrow-up-right" role="none"></i></a></li>
+            </ul>
+            <p class="text-center text-body-secondary py-2"><i class="bi bi-geo-alt" role="none"></i> Austin, Texas</p>
         </footer>
     </div>
 
