@@ -6,7 +6,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPX22EREXK"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'G-HPX22EREXK');
@@ -18,105 +21,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Jorge Felix Portfolio">
     <meta name="description" content="Jorge Felix | Software Developer Portfolio | Web & iOS | Seeking Opportunities">
-    <meta name="keywords"
-        content="Software Developer Portfolio,Jorge Felix,Web Development,iOS Development,Front-End Development,Back-End Development,Full Stack,Development,Software Engineer,Web Developer Resume,iOS Developer,Portfolio,Code Samples,Programming Projects,Responsive Design,JavaScript,HTML5,CSS3,Swift,UI/UX Design,Job Seeker,Hire a Developer">
+    <meta name="keywords" content="Software Developer Portfolio,Jorge Felix,Web Development,iOS Development,Front-End Development,Back-End Development,Full Stack,Development,Software Engineer,Web Developer Resume,iOS Developer,Portfolio,Code Samples,Programming Projects,Responsive Design,JavaScript,HTML5,CSS3,Swift,UI/UX Design,Job Seeker,Hire a Developer">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
 
-    <meta property="og:url" content="jorge-felix.com">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Jorge Felix Portfolio">
-    <meta property="og:description"
-        content="Jorge Felix | Software Developer Portfolio | Web & iOS | Seeking Opportunities">
-    <meta property="og:image" content="https://jorge-felix.com/assets/headshot-medium.jpg">
-    <meta property="og:image:width" content="630" />
-    <meta property="og:image:height" content="630" />
+    <script src="js/scripts.js"></script>
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="jorge-felix.com">
-    <meta property="twitter:url" content="jorge-felix.com">
-    <meta name="twitter:title" content="Jorge Felix Portfolio">
-    <meta name="twitter:description"
-        content="Jorge Felix | Software Developer Portfolio | Web & iOS | Seeking Opportunities">
-    <meta name="twitter:image" content="https://jorge-felix.com/assets/headshot-medium.jpg">
+    <header-component></header-component>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/site.webmanifest">
-    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Jorge Felix</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="https://profile.indeed.com/p/jorgef-7n03x99"
-                            aria-label="Resume on Indeed.com - link opens in a new tab">Resume <i
-                                class="bi bi-box-arrow-up-right" role="none"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/jorge-felix/"
-                            aria-label="LinkedIn Profile - link opens in a new tab">LinkedIn <i
-                                class="bi bi-box-arrow-up-right" role="none"></i></a>
-                    </li> -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" aria-haspopup="true">
-                            Profiles
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://profile.indeed.com/p/jorgef-7n03x99" aria-label="External link to my resume on Indeed">Resume <i
-                                class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/jorge-felix/" aria-label="External link to my profile on LinkedIn">LinkedIn <i
-                                class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-                            <li><a class="dropdown-item" href="https://github.com/jfelix9" aria-label="External link to my profile on GitHub">GitHub <i
-                                class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" aria-haspopup="true">
-                            Projects
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="iosappprojects.html">iOS App Development</a></li>
-                            <li><a class="dropdown-item" href="webdevprojects.html">Web Development</a></li>
-                            <li><a class="dropdown-item" href="otherprojects.html">Other Skills</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <navbar-component></navbar-component>
 
     <div class="px-4 py-3 my-3 text-center">
-        <img class="d-block mx-auto mb-4 rounded" src="assets/headshot-small.jpg" alt="Profile headshot picture"
-            width="60" height="60">
+        <img class="d-block mx-auto mb-4 rounded" src="assets/headshot-small.jpg" alt="Profile headshot picture" width="60" height="60">
         <h1 class="display-5 fw-bold text-body-emphasis">Hi, I'm Jorge</h1>
         <div class="col-lg-4 mx-auto">
-            <p class="lead mb-4" role="heading" aria-level="2">Expericenced software developer with years of experience
-                in web development and iOS app
-                development.</p>
+            <p class="lead mb-4" role="heading" aria-level="2">Expericenced front-end web developer with years of experience.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                 <a class="btn btn-primary" href="https://profile.indeed.com/p/jorgef-7n03x99" role="button"><i class="bi bi-file-earmark-person" role="none"></i> Resume</a>
                 <a class="btn btn-primary" href="https://www.linkedin.com/in/jorge-felix/" role="button"><i class="bi bi-linkedin" role="none"></i> LinkedIn</a>
@@ -127,8 +51,9 @@
 
     <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 border-bottom">What I can do for you</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="feature col">
+        <!-- <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> -->
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+            <!-- <div class="feature col">
                 <div
                     class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-1 rounded">
                     <i class="bi bi-phone" role="none"></i>
@@ -142,10 +67,9 @@
                         <use xlink:href="#chevron-right"></use>
                     </svg>
                 </a>
-            </div>
+            </div> -->
             <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-1 rounded">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-1 rounded">
                     <i class="bi bi-laptop" role="none"></i>
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Web Development</h3>
@@ -158,8 +82,7 @@
                 </a>
             </div>
             <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-1 rounded">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-1 rounded">
                     <i class="bi bi-person-arms-up" role="none"></i>
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Other stuff I've picked up along the way</h3>
@@ -175,18 +98,17 @@
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 row-cols-1 row-cols-lg-2">
-        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 py-3">
-                <h2 class="display-5">MMUT: Micro-Manage Ur Time</h2>
-                <p class="lead">An iOS app to help you manage time sensitive routines.</p>
-                <a class="btn btn-primary" href="iosappprojects.html#featured-personal-project" role="button">See
+        <!-- <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">MMUT: Micro-Manage Ur Time</h2>
+                    <p class="lead">An iOS app to help you manage time sensitive routines.</p>
+                    <a class="btn btn-primary" href="iosappprojects.html#featured-personal-project" role="button">See
                     Details</a>
-                <a class="btn btn-primary" href="https://github.com/jfelix9/Pro-Routines" role="button"><i
+                    <a class="btn btn-primary" href="https://github.com/jfelix9/Pro-Routines" role="button"><i
                         class="bi bi-github" role="none"></i> GitHub</a>
-            </div>
-            <img src="assets/mmut-screenshot-1.png" alt="Sample screenshot"
-                style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; object-fit: cover; object-position: center top;">
-        </div>
+                </div>
+                <img src="assets/mmut-screenshot-1.png" alt="Sample screenshot" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; object-fit: cover; object-position: center top;">
+            </div> -->
         <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
                 <h2 class="display-5">Tracks: PhD progress tracking</h2>
@@ -196,8 +118,7 @@
                 <a class="btn btn-primary" href="https://github.com/jfelix9/Tracks" role="button"><i
                         class="bi bi-github" role="none"></i> GitHub</a>
             </div>
-            <img src="assets/tracks-mini-demo.gif" alt="Sample screenshot"
-                style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; object-fit: cover; object-position: center top;">
+            <img src="assets/tracks-mini-demo.gif" alt="Sample screenshot" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; object-fit: cover; object-position: center top;">
         </div>
     </div>
 
@@ -206,8 +127,7 @@
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-1">
             <div class="feature col">
                 <h3 class="fs-2 text-body-emphasis">The University of Texas at El Paso</h3>
-                <p>Graduated with a bachelor's in computer science and a minor in math. Technical elective selection
-                    focused on web development and secure web based systems.</p>
+                <p>Graduated with a bachelor's in computer science and a minor in math. Technical elective selection focused on web development and secure web based systems.</p>
             </div>
         </div>
     </div>
@@ -231,11 +151,9 @@
                 </svg>
                 <div>
                     <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Sto imparando l'Italiano</h3>
-                    <p>Friend me on <a href="https://www.duolingo.com/profile/J_Felix9"
-                            aria-label="Duolingo Profile - link opens in a new tab">Duolingo <i
-                                class="bi bi-box-arrow-up-right" role="none"></i></a>! I'm on a 197 day streak at the
-                        time of writting
-                        this.</p>
+                    <p>Friend me on <a href="https://www.duolingo.com/profile/J_Felix9" aria-label="Duolingo Profile - link opens in a new tab">Duolingo <i
+                                class="bi bi-box-arrow-up-right" role="none"></i></a>! I'm on a 197 day streak at the time of writting this.
+                    </p>
                 </div>
             </div>
             <div class="col d-flex align-items-start">
@@ -251,27 +169,10 @@
     </div>
 
     <div class="container">
-        <footer class="py-1 my-1">
-            <ul class="nav justify-content-center border-bottom py-1 mb-1">
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-            </ul>
-            <ul class="nav justify-content-center border-bottom py-2 mb-1">
-                <li class="nav-item"><a href="iosappprojects.html" class="nav-link px-3 text-body-secondary">iOS</a></li>
-                <li class="nav-item"><a href="webdevprojects.html" class="nav-link px-3 text-body-secondary">Web</a></li>
-                <li class="nav-item"><a href="otherprojects.html" class="nav-link px-3 text-body-secondary">Other</a></li>
-            </ul>
-            <ul class="nav justify-content-center border-bottom py-2 mb-1">
-                <li class="nav-item"><a href="https://profile.indeed.com/p/jorgef-7n03x99" class="nav-link px-3 text-body-secondary" aria-label="Resume on Indeed.com - link opens in a new tab">Resume <i class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-                <li class="nav-item"><a href="https://www.linkedin.com/in/jorge-felix/" class="nav-link px-3 text-body-secondary" aria-label="LinkedIn Profile - link opens in a new tab">LinkedIn <i class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-                <li class="nav-item"><a href="https://github.com/jfelix9" class="nav-link px-3 text-body-secondary" aria-label="GitHub Profile - link opens in a new tab">GitHub <i class="bi bi-box-arrow-up-right" role="none"></i></a></li>
-            </ul>
-            <p class="text-center text-body-secondary py-2"><i class="bi bi-geo-alt" role="none"></i> Austin, Texas</p>
-        </footer>
+        <footer-component></footer-component>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </body>
 
